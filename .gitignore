@@ -1,5 +1,8 @@
 # Project exclude paths
 /venv/
 /results/
-/plot_utils/plot_multiple_curves.py
-/game_stats/
+env/
+game/__pycache__
+rl_models/__pycache__
+maze3D_new/__pycache__
+plot_utils/__pycache__
