@@ -1,6 +1,7 @@
 #!/usr/bin/bash
-sudo apt install python3-venv
+sudo apt install python3-venv libjpeg-dev zlib1g-dev
 python3 -m venv env
 source env/bin/activate
+pip install -U setuptools
 pip install -r install_dependencies/requirements.txt
 export PYTHONPATH=$PWD:$PYTHONPATH
